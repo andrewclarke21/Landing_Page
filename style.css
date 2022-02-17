@@ -2,3 +2,81 @@
   margin: 0;
   padding: 0;
 }
+
+header {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.header {
+  color: #f9faf8;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: 800;
+}
+.secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 25px;
+  font-weight: 900;
+}
+
+.card-information {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 800;
+}
+
+.quotes {
+  background-color: #e5e7eb;
+}
+.main-quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+.main-author {
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-border {
+  width: 140px;
+  height: 140px;
+  border: 3.5px solid #3882f6;
+  margin-bottom: 4px;
+  border-radius: 9px;
+}
+.card > p {
+  color: rgb(56, 56, 56);
+}
+
+.cta-background {
+  background-color: #3882f6;
+}
+.cta-header {
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 20px;
+}
+.cta-text {
+  color: #e5e7eb;
+}
+.cta-button {
+  border: solid 2.7px #e5e7eb;
+  border-radius: 6px;
+}
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
