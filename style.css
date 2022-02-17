@@ -4,17 +4,66 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+}
+
+.header-inner-container,
+.card-inner-container,
+.quotes-inner-container,
+.call-to-action {
+  width: 65%;
+}
 header {
   background-color: #1f2937;
   color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.card-format-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quotes {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+.cta-background {
+  display: flex;
+  justify-content: center;
+}
+
+.header-top-container {
+  display: flex;
+}
+
+.header-content {
+  display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.header-link {
+  padding: 0 10px 0 0;
 }
 
 .header-logo {
   color: #f9faf8;
   font-weight: 900;
+  margin-right: auto;
+  font-size: 24px;
 }
 
-.hero {
+.hero-header {
   font-size: 48px;
   font-weight: 900;
 }
@@ -43,7 +92,6 @@ button {
 }
 
 .quotes {
-  background-color: #e5e7eb;
 }
 .main-quote {
   font-size: 36px;
@@ -56,7 +104,9 @@ button {
   font-weight: bold;
   font-size: 20px;
 }
-
+.card-container {
+  display: flex;
+}
 .card-border {
   width: 140px;
   height: 140px;
@@ -68,9 +118,6 @@ button {
   color: rgba(56, 56, 56, 0.85);
 }
 
-.cta-background {
-  min-height: 300px;
-}
 .call-to-action {
   background-color: #3882f6;
 }
@@ -90,4 +137,5 @@ button {
 footer {
   background-color: #1f2937;
   color: #e5e7eb;
+  text-align: center;
 }
