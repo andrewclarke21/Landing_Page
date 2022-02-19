@@ -7,13 +7,13 @@
 
 body {
 }
-
 .header-inner-container,
 .card-inner-container,
 .quotes-inner-container,
 .call-to-action {
   width: 1028px;
 }
+
 header {
   background-color: #1f2937;
   color: #e5e7eb;
@@ -45,7 +45,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+
   margin-bottom: 130px;
 }
 .img-container {
@@ -55,6 +55,7 @@ header {
   background-color: grey;
   width: 560px;
   height: 242px;
+  padding-left: 10px;
 }
 
 ul {
